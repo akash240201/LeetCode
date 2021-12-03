@@ -1,3 +1,5 @@
+package com.akash.Leetcode;
+
 public class _31 {
     //This is brute force method, not accepted by leetcode due to runtime error
     public static void nextPermutation(int[] nums) {
