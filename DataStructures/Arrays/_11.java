@@ -1,6 +1,10 @@
 package com.akash.Leetcode;
 
 public class _11 {
+    //this solution is accepted by leetcode
+    //runtime 4ms
+    //memory used 79MB
+    
     public static int maxArea(int[] height) {
         int max_area = 0; //initially the max area is set to 0
         int i = height.length - 1;
