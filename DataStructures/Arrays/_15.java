@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _15 {
+    //this is two pointers method of solving this problem
+    //remember that for two pointers method, the array should be sorted
     public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         //System.out.println(Arrays.toString(nums)); //checkpoint print
