@@ -17,8 +17,8 @@ public class _118 {
     /**
      * Runtime: 1 ms, faster than 21.96% of Java online submissions for Pascal's Triangle.
      * Memory Usage: 38.6 MB, less than 12.01% of Java online submissions for Pascal's Triangle.
-     * @param numRows
-     * @return
+     * @param numRows total no. of rows present in the pascal triangle
+     * @return the list of list of integers, where each list integers is a row in pascal triangle
      */
     public static List<List<Integer>> generate(int numRows) {
         int i = 0;
